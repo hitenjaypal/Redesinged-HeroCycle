@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HeroCycles</title>
+    <link rel="icon" href="./Assets/favicon-196x196.png" type="image/x-icon">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css"> -->
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body onload="move()">
+
+    <div class="loader">
+        <div class="newdiv">1</div>
+        <div class="left">
+          <h1>HEROCYCLES</h1>
+         
+        </div>
+        <div class="right">
+          <h1>HEROCYCLES</h1>   
+        </div>
+      </div>
+
+    <div id="NewWrapper" >
+        
+        <!-- navbar -->
+        <header>
+            <nav>
+                <input type="checkbox" id="check">
+                <label for="check" class="checkbtn">
+                    <i class="fa fa-bars"></i>
+                </label>
+                <img src="./Assets/hero image.svg" alt="hero cycles" id="logo">
+        
+                <ul>
+                    <li><a class="active" href="#home-section">HOME</a></li>
+                    <li><a href="#about-section">ABOUT</a></li>
+                    <li><a href="#bicycles-section">BICYCLES</a></li>
+                    <li><a href="#bestsellers">BESTSELLERS</a></li>
+                    <li><a href="#team-section">HERO-TEAM</a></li>
+                </ul>
+            </nav>
+        </header>
+
+
+        <!-- Home Section -->
+        <section class="home" id="home-section">
+            <div  class="aryan">
+                <div  class="hero-container">
+                        <iframe src='https://my.spline.design/untitled-5a7360cdf56558dd8c267d138be67fdb/' frameborder='0' width='100%' height='100%'></iframe>
+                    <div class="heroH1"><h1 class="boundigelem">HEROSPRIN<em>T</em>
+                    </h1></div>
+                    <div  class="aryan_h3">
+                        <a href="https://www.herocycles.com/bike" style="text-decoration: none;"><h2>BUY NOW</h2></a>
+                        <h3 >
+                            RIDING MADE EASY
+                        </h3>
+                    </div>
+                  
+                </div>
+                <div class="scroll">
+                     <h1>Scroll</h1>
+                     <i class='bx bx-right-arrow-alt' ></i>
+                </div>
+            </div>
+        </section>
+
+
+
+
+        <!-- About  -->
+        <section class="Abt" id="about-section">
+            <div class="about" id="About">
+               
+                <div class="aboutMsg">
+                    <h1>OUR STORY</h1>
+                    <div class="msg">
+                        <p>Hero Cycles, a prominent name in the bicycle industry, represents a remarkable journey from
+                            modest
+                            beginnings to becoming one of the world's largest bicycle manufacturers. Founded in 1956 by
+                            the
+                            Munjal brothers in Ludhiana, Punjab, Hero Cycles has played a pivotal role in transforming
+                            transportation and promoting sustainable mobility. This essay explores the history, growth,
+                            and
+                            impact of Hero Cycles, emphasizing its contributions to the global bicycle market.</p>
+
+                        <q>The reasonable man adapts himself to the world. The unreasonable man persists in trying to
+                            adapt the world to himself. All progress therefore, depends on the unreasonable man</q>
+                    </div>
+                </div>
+
+                <div class="anotherImage">
+                    <!-- <img src="./Assets/rick-gebhardt-Hi_FonIcfjk-unsplash.jpg" alt="Image"> -->
+                     <div class="images">
+                        <img loading="lazy" src="./Assets/rick-gebhardt-Hi_FonIcfjk-unsplash_50.jpg" alt="">
+                     </div>
+                   
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Minimap Animation -->
+        <section class="pg3" id="cyc">
+            <div class="main">
+                <div class="gallery">
+                    <div class="minimap" data-scroll data-scroll-sticky data-scroll-target="#page3">
+                        <div class="preview">
+                            <div class="itemPreview">
+                                <img loading="lazy" src="./Assets/Kid_2.jpg" alt="">
+                            </div>
+                            <div class="itemPreview">
+                                <img loading="lazy" src="./Assets/Men_2.jpg" alt="">
+                            </div>
+                            <div class="itemPreview">
+                                <img loading="lazy" src="./Assets/Women_2.jpg" alt="">
+                            </div>
+                            <div class="itemPreview">
+                                <img loading="lazy" src="./Assets/MTB.png" alt="">
+                            </div>
+                            <div class="itemPreview">
+                                <img loading="lazy" src="./Assets/Hybrid_2.jpg" alt="">
+                            </div>
+                            <div class="itemPreview">
+                                <img loading="lazy" src="./Assets/HLectro.png" alt="">
+                            </div>
+                            <div class="itemPreview">
+                                <img loading="lazy" src="./Assets/Classic.jpg" alt="">
+                            </div>
+                            <div class="itemPreview">
+                                <img loading="lazy" src="./Assets/Acc.png" alt="">
+                            </div>
+                        </div>
+                        <div class="activeImgIndicator"></div>
+                    </div>
+
+
+                    <div class="mainImages">
+                        <div class="item">
+                            <div class="itemImg"><img loading="lazy" src="./Assets/Kid.jpg" alt=""></div>
+                            <div class="itemDescription">
+                                <p>Kid</p>
+                                <a href="https://www.herocycles.com/bike/kids-bicycles " ><p>Explore >></p></a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="itemImg"><img loading="lazy" src="./Assets/Men_2.jpg" alt=""></div>
+                            <div class="itemDescription">
+                                <p>Men</p>
+                                <a href="https://www.herocycles.com/bike/men-bikes"><p>Explore >></p></a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="itemImg"><img loading="lazy" src="./Assets/Women_2.jpg" alt=""></div>
+                            <div class="itemDescription">
+                                <p>Women</p>
+                                <a href="https://www.herocycles.com/bike/women-bikes"><p>Explore >></p></a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="itemImg"><img loading="lazy" src="./Assets/MTB.png" alt=""></div>
+                            <div class="itemDescription">
+                                <p>Mountain Bikes</p>
+                                <a href="https://www.herocycles.com/bike/mountain-bikes"><p>Explore >></p></a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="itemImg"><img loading="lazy" src="./Assets/Hybrid_2.jpg" alt=""></div>
+                            <div class="itemDescription">
+                                <p>City (Hybrid)</p>
+                                <a href="https://www.herocycles.com/bike/city-bikes"><p>Explore >></p></a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="itemImg"><img loading="lazy" src="./Assets/HLectro.png" alt=""></div>
+                            <div class="itemDescription">
+                                <p>E-bikes</p>
+                                <a href="https://www.herolectro.com/"><p>Explore >></p></a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="itemImg"><img loading="lazy" src="./Assets/Classic.jpg" alt=""></div>
+                            <div class="itemDescription">
+                                <p>Classics</p>
+                                <a href="https://www.herocycles.com/bike/classic-bikes"><p>Explore >></p></a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="itemImg"><img loading="lazy" src="./Assets/Acc.png" alt=""></div>
+                            <div class="itemDescription">
+                                <p>Accessories</p>
+                                <a href="https://www.herocycles.com/accessories"><p>Explore >></p></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+
+        <!-- Product Page -->
+         <section class="bd">
+            <div class="body" id="bicycles-section">
+
+                <div class="header">
+                    <h1>Featured Bicycle</h1>
+                </div>
+
+                <div class="bicycle-gallery">
+                    <div class="bicycle">
+                        <img loading="lazy" src="https://www.herocycles.com/dw/image/v2/BGQH_PRD/on/demandware.static/-/Sites-cycles-master/default/dw4965af04/Products/DORAEMON%20BLOSSOM/BSBSM16PK00001/04.png?sh=523&sfrm=png" alt="DORAEMON BLOSSOM">
+                        <div class="info">
+                            <p class="name">DORAEMON BLOSSOM</p>
+                            <p class="price">7,500.00</p>
+                            <button class="nikhil">add to wishlist</button>
+
+                        </div>
+                    </div>
+                    <div class="bicycle">
+                        <img loading="lazy" src="https://www.herocycles.com/dw/image/v2/BGQH_PRD/on/demandware.static/-/Sites-cycles-master/default/dwec29878b/Products/F11/BCF1120BLBK001/02.png?sh=523&sfrm=png" alt="F11">
+                        <div class="info">
+                            <p class="name">F11</p>
+                            <p class="price">8,999.00</p>
+                            <button class="nikhil">add to wishlist</button>
+                        </div>
+
+                        
+
+                        
+                      
+                    </div>
+                    <div class="bicycle">
+                        <img loading="lazy" src="https://www.herocycles.com/dw/image/v2/BGQH_PRD/on/demandware.static/-/Sites-cycles-master/default/dwac6ff282/Products/Voltage/BSVOL26BKOR001/02.png?sh=523&sfrm=png" alt="STING">
+                        <div class="info">
+                            <p class="name">VOLTAGE</p>
+                            <p class="price">11,240.00</p>
+                            <button class="nikhil">add to wishlist</button>
+                            
+                        </div>
+                    </div>
+                    <div class="bicycle">
+                        <img loading="lazy" src="https://www.herocycles.com/dw/image/v2/BGQH_PRD/on/demandware.static/-/Sites-cycles-master/default/dwa014426c/Products/STING/BCSTG20BL00001/02.png?sh=523&sfrm=png" alt="MOUNTAIN">
+                        <div class="info">
+                            <p class="name">STING</p>
+                            <p class="price">5,355.00</p>
+                            <button class="nikhil">add to wishlist</button>
+                        </div>
+                    </div>
+                    <div class="bicycle">
+                        <img loading="lazy" src="https://images.jdmagicbox.com/quickquotes/images_main/mig-cs-24t-376824723-rj6v9.png" alt="SYMACTIVE">
+                        <div class="info">
+                            <p class="name">MIG 24T</p>
+                            <p class="price">6,999.00</p>
+                            <button class="nikhil">add to wishlist</button>
+                        </div>
+                    </div>
+                    <div class="bicycle">
+                        <img loading="lazy" src="https://www.herocycles.com/dw/image/v2/BGQH_PRD/on/demandware.static/-/Sites-cycles-master/default/dw1a74d6eb/Products/Hustle/BSHUS27RD00001/04.png?sh=523&sfrm=png" alt="SDK">
+                        <div class="info">
+                            <p class="name">HUSTLE</p>
+                            <p class="price">18,275.00</p>
+                            <button class="nikhil">add to wishlist</button>
+                        </div>
+                    </div>
+    
+                </div>
+            </div> 
+            <div class="absoluteDiv">
+                <i class='bx bxs-right-arrow'></i>
+            </div>
+            <div class="goey">
+                <i class='bx bxs-left-arrow' ></i>
+            </div>
+         </section>
+
+
+
+   <!-- Horizontal Scroll -->
+   <section class="hC" id="bestsellers">
+    <div class="horizontalscroll">
+        <div class="hcontainer">
+          <div class="slides">
+            <div class="H-item">
+              <h1 class="title">
+                Explore Our Top 3 <br />
+                Brands
+              </h1>
+            </div>
+            
+            <div class="H-item"> 
+              <h2 data-content="LECTRO">LECTRO</h2>
+              <img loading="lazy" src="Assets/Lectro.webp" alt="Brand-1" class="responsive-img" />
+              <button class="hcard-btn">add to wishlist</button>
+            </div>
+
+            <!-- <div class="H-item">
+               <h2 data-content="SPRINT">SPRINT</h2>
+              <img src="https://m.media-amazon.com/images/I/7152Fw40eiL._SL1500_.jpg" alt="Brand-2" class="responsive-img" />
+              <button class="hcard-btn">add to wishlist</button> 
+         </div> -->
+
+            <div class="H-item">
+               <h2 data-content="SPRINT">SPRINT</h2>
+              <img loading="lazy" src="Assets/five.png" alt="Brand-2" class="responsive-img" />
+              <button class="hcard-btn">add to wishlist</button> 
+         </div>
+
+            <div class="H-item"> 
+              <h2 data-content="OCTANE">OCTANE</h2>
+              <img loading="lazy" src="Assets/six.png" alt="Brand-3" class="responsive-img" />
+              <button class="hcard-btn">add to wishlist</button> 
+             </div>
+          </div>
+        </div>
+      </div> 
+   </section>
+
+
+
+
+        <!-- Team Section -->
+        <section class="team" id="team-section">
+            <div class="container">
+                <div class="icon">
+                    <div class="imgBx active"style="--i:1;" data-id="content1">
+                        <img loading="lazy" src="./Assets/Aditya-Munjal.jpg" >
+                    </div>
+                    <div class="imgBx"
+                    style="--i:2;" data-id="content2">
+                        <img loading="lazy" src="./Assets/OP Munjal Ji.jpg" alt="">
+                    </div>
+                    <div class="imgBx"
+                    style="--i:3;" data-id="content3">
+                        <img loading="lazy" src="./Assets/PANKAJ.jpg" alt="">
+                    </div>
+                    <div class="imgBx"
+                    style="--i:4;" data-id="content4">
+                        <img loading="lazy" src="./Assets/image.png" alt="">
+                     </div> 
+        
+                </div>
+        
+        <div class="content">
+          <div class="contentBx active" id="content1">
+            <div class="card">
+                <div class="imgBx">
+                    <img loading="lazy" src="./Assets/Aditya-Munjal.jpg" alt="">
+                </div>
+                <div class="textBx">
+                    <h2>Aditya-Munjal</h2>
+                    <ul class="sci">
+                       <li><a href="https://www.linkedin.com/in/aditya-munjal-077a531a8/?originalSubdomain=uk"><i class="fab fa-linkedin"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+          </div>
+        
+                <div class="contentBx " id="content2">
+                    <div class="card">
+                        <div class="imgBx">
+                            <img loading="lazy" src="./Assets/OP Munjal Ji.jpg" alt="">
+                        </div>
+                        <div class="textBx">
+                            <h2>Munjal Ji</h2>
+                            <ul class="sci">
+                               <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                  </div>
+        
+                  <div class="contentBx" id="content3">
+                    <div class="card">
+                        <div class="imgBx">
+                            <img loading="lazy" src="./Assets/PANKAJ.jpg" alt="">
+                        </div>
+                        <div class="textBx">
+                            <h2>PANKAJ-MUNJAL</h2>
+                            <ul class="sci">
+                               <li><a href="https://www.linkedin.com/in/pankaj-m-munjal-49b20a54/"><i class="fab fa-linkedin"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                  </div>
+        
+                  <div class="contentBx " id="content4">
+                    <div class="card">
+                        <div class="imgBx">
+                            <img loading="lazy" src="./Assets/ABHISHEK MUNJAL.jpg" alt="">
+                        </div>
+                        <div class="textBx">
+                            <h2>Abhishek Munjal</h2>
+                            <ul class="sci">
+                               <li><a href="https://www.linkedin.com/in/abhishek-munjal-4a008528/?originalSubdomain=in"><i class="fab fa-linkedin"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                  </div>
+        
+        
+        </div>
+        
+        </div>
+        </section>
+
+
+
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="contain">
+        <div class="row">
+            <div class="footer-col">
+                <h4>company</h4>
+                <ul>
+                    <li><a href="https://www.herocycles.com/about-us/">about us</a></li>
+                    <li><a href="https://www.herocycles.com/blog/">blogs</a></li>
+                    <li><a href="https://www.herocycles.com/privacy-policy/">privacy policy</a></li>
+                    <li><a href="https://www.herocycles.com/hero-sprint-store">hero sprint store</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>get help</h4>
+                <ul>
+                    <li><a href="https://www.herocycles.com/faq/">FAQ</a></li>
+                    <li><a href="https://www.herocycles.com/order-policy/">shipping</a></li>
+                    <li><a href="https://www.herocycles.com/order-policy/">returns</a></li>
+                    <li><a href="https://www.herocycles.com/order-policy/">order status</a></li>
+                    <li><a href="https://www.herocycles.com/terms-and-conditions/">terms conditions</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Our Products</h4>
+                <ul>
+                    <li><a href="https://www.herocycles.com/bike/mountain-bikes">Mountain</a></li>
+                    <li><a href="https://www.herocycles.com/bike/city-bikes">City</a></li>
+                    <li><a href="https://www.herocycles.com/bike/women-bikes">Women</a></li>
+                    <li><a href="https://www.herocycles.com/accessories">Accessories</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>follow us</h4>
+                <div class="social-links">
+                    <a href="https://www.facebook.com/HeroCyclesOfficial/"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://x.com/Hero_Cycles/"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/hero_cycles/"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/company/herocycles/?originalSubdomain=in"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+        <!-- Footer -->
+        <!-- <section class="footer">
+            <footer></footer>
+        </section> -->
+
+    </div>
+
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script> -->
+    <!--  Gsap is needed for Basic Effects -->
+
+
+    <!-- GSAP CDN / Horizontal Slides-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+        integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+        integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
